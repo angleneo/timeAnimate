@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    .time-box {
+    position:absolute;
+    left:0;
+    top:0;
+    width:964px;
+    height:64px;
+    background:url('img/time_border.png') no-repeat;
+}
+.time-number {
+    position:absolute;
+    left:9px;
+    top:9px;
+    width:46px;
+    height:46px;
+    background:url('img/ten_number.png') no-repeat;
+    background-position: 0 0;
+}
+.time-year02 {
+    left:68px;
+}
+.time-year03 {
+    left:127px;
+}
+.time-year04 {
+    left:186px;
+}
+.time-month01 {
+    left:272px;
+}
+.time-month02 {
+    left:331px;
+}
+.time-day01 {
+    left:422px;
+}
+.time-day02 {
+    left:481px;
+}
+.time-hour01 {
+    left:578px;
+}
+.time-hour02 {
+    left:637px;
+}
+.time-minute01 {
+    left:714px;
+    /*animation:minuteM 36000s infinite linear;*/
+}
+.time-minute02 {
+    left:773px;
+    /*animation:secondM 3600s infinite linear;*/
+}
+.time-second01 {
+    left:850px;
+    /*animation:minuteM 50s infinite linear;*/
+}
+.time-second02 {
+    left:909px;
+   /*animation:secondM 10s infinite linear;*/
+}
+    </style>
+</head>
+<body>
+    <div class="time-box">
+        <div class="time-number time-year01"></div>
+        <div class="time-number time-year02"></div>
+        <div class="time-number time-year03"></div>
+        <div class="time-number time-year04"></div>
+        <div class="time-number time-month01"></div>
+        <div class="time-number time-month02"></div>
+        <div class="time-number time-day01"></div>
+        <div class="time-number time-day02"></div>
+        <div class="time-number time-hour01"></div>
+        <div class="time-number time-hour02"></div>
+        <div class="time-number time-minute01"></div>
+        <div class="time-number time-minute02"></div>
+        <div class="time-number time-second01"></div>
+        <div class="time-number time-second02"></div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/time.js"></script>
+</body>
+</html>
